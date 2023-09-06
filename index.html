@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title id="page-title">Home</title>
+
     <link rel="stylesheet" href="style.css" />
 
     <!-- BEGIN LivePerson Monitor. -->
@@ -122,160 +123,98 @@
       </ul>
     </nav>
 
-    <!-- <div class="item">
-
+    <div class="item">
       <img
-
         src="https://via.placeholder.com/150"
-
         alt="Item 1 Image"
-
         height="150"
-
         width="150"
-
       />
 
       <div class="fixed-description">
-
         <p>Item 1</p>
 
         <p>Price: $10.00</p>
-
       </div>
 
       <button class="add-to-cart-btn" onclick="addToCart(1, 10)">
-
         Add to Cart
-
       </button>
-
     </div>
 
- 
-
     <div class="item">
-
       <img
-
         src="https://via.placeholder.com/150"
-
         alt="Item 2 Image"
-
         height="150"
-
         width="150"
-
       />
 
       <div class="fixed-description">
-
         <p>Item 2</p>
 
         <p>Price: $15.00</p>
-
       </div>
 
       <button class="add-to-cart-btn" onclick="addToCart(2, 15)">
-
         Add to Cart
-
       </button>
-
     </div>
 
- 
-
     <div class="item">
-
       <img
-
         src="https://via.placeholder.com/150"
-
         alt="Item 3 Image"
-
         height="150"
-
         width="150"
-
       />
 
       <div class="fixed-description">
-
         <p>Item 3</p>
 
         <p>Price: $12.50</p>
-
       </div>
 
       <button class="add-to-cart-btn" onclick="addToCart(3, 12.5)">
-
         Add to Cart
-
       </button>
-
     </div>
 
- 
-
     <div class="item">
-
       <img
-
         src="https://via.placeholder.com/150"
-
         alt="Item 4 Image"
-
         height="150"
-
         width="150"
-
       />
 
       <div class="fixed-description">
-
         <p>Item 4</p>
 
         <p>Price: $8.75</p>
-
       </div>
 
       <button class="add-to-cart-btn" onclick="addToCart(4, 8.75)">
-
         Add to Cart
-
       </button>
-
     </div>
 
- 
-
     <div class="cart-details" style="color: black">
-
       <span id="cart-count">Cart Items: 0</span><br />
 
       <span id="total-price">Total Price: $0.00</span>
-
     </div>
 
- 
-
     <script>
-
       var cartCount = 0;
 
       var totalPrice = 0;
-
- 
 
       const pageTitleElement = document.getElementById("page-title").innerText;
 
       const totalCartValueElement = document.getElementById("total-cart-value");
 
- 
-
       function addToCart(itemId, itemPrice) {
-
         cartCount += 1;
 
         totalPrice += itemPrice;
@@ -286,20 +225,15 @@
 
         console.log(totalPrice);
 
- 
-
         // var totalPriceString = `Total Price: ${totalPrice}`;
 
         // var pageTitleString = `Page Title: ${pageTitleElement}`;
-
- 
 
         window.lpTag = window.lpTag || {};
 
         lpTag.sdes = lpTag.sdes || [];
 
         lpTag.sdes.push({
-
           type: "cart", //MANDATORY
 
           total: totalPrice,
@@ -329,10 +263,7 @@
           // },
 
           // ],
-
         });
-
- 
 
         // lpTag.section = [pageTitleElement];
 
@@ -341,31 +272,20 @@
         // "electronics",  //CAN BE A SECTION OR A SUB-SECTION
 
         // "user agreement faqs"
-
       }
 
- 
-
       function updateCartCount() {
-
         const cartCountElement = document.getElementById("cart-count");
 
         cartCountElement.textContent = "Cart Items: " + cartCount.toString();
-
       }
 
- 
-
       function updateTotalPrice() {
-
         const totalPriceElement = document.getElementById("total-price");
 
         totalPriceElement.textContent =
-
           "Total Price: " + "$" + totalPrice.toFixed(2);
-
       }
-
-    </script> -->
+    </script>
   </body>
 </html>
