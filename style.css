@@ -3,7 +3,7 @@
 
 body {
   background-color:  #c9c0bb;
-  font-family: Arial, sans-serif;
+  font-family: Georgia;
 
   margin: 0;
 
@@ -105,9 +105,9 @@ nav a {
 
   position: fixed;
 
-  top: 40px;
+  top: 20px;
 
-  right: 20px;
+  right: 200px;
 }
 
 #total-price {
@@ -115,9 +115,9 @@ nav a {
 
   position: fixed;
 
-  top: 70px;
+  top: 60px;
 
-  right: 20px;
+  right: 200px;
 
   font-size: 18px;
 }
@@ -127,7 +127,8 @@ nav a {
 /* Add some basic styling */
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: Georgia;
+
 
   margin: 0;
 
@@ -237,7 +238,7 @@ nav a {
 
   top: 20px;
 
-  right: 20px;
+  right: 200px;
 }
 
 #total-price {
@@ -245,7 +246,7 @@ nav a {
 
   top: 60px;
 
-  right: 20px;
+  right: 200px;
 
   font-size: 18px;
 }
