@@ -336,13 +336,14 @@
           exp: 1992025992,
           iat: 1682030954,
           acr: "loa1",
+          given_name: "Rachana Patil",
         });
       }
 
       // var public_key = MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu1SU1LfVLPHCozMxH2Mo4lgOEePzNm0tRgeLezV6ffAt0gunVTLw7onLRnrq0/IzW7yWR7QkrmBL7jTKEn5u+qKhbwKfBstIs+bMY2Zkp18gnTxKLxoS2tFczGkPLPgizskuemMghRniWaoLcyehkd3qqGElvW/VDL5AaWTg0nLVkjRo9z+40RQzuVaE8AkAFmxZzow3x+VJYKdjykkJ0iT9wCS0DRTXu269V264Vf/3jvredZiKRkgwlL9xNAwxXFg0x/XFw005UWVRIkdgcKWTjpBP2dPwVZ4WWC+9aGVd+Gyn1o0CLelf4rEjGoXbAAEgAqeGUxrcIlbjXfbcmwIDAQAB
 
       var id_token =
-        "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJSYWNoYW5hIFBhdGlsIC0gODMxMzI2IiwiaXNzIjoiaHR0cHM6Ly9qd3QuaW8vIiwiYXVkIjoiYWNjOnFhNTcyMjE2NzYiLCJleHAiOjE5OTIwMjU5OTIsImlhdCI6MTY4MjAzMDk1NCwiYWNyIjoibG9hMSJ9.eBXb-aJk8eAQmL1ad_AhKdiqezqnwA98qYhpo5QJcm6t8u3_XMwxRNyq2nWC_DZiQB5V_1vpmLkNek6e3GdoMjJYd6LczpQvQoH_ldc18gdRvvNAyB7BcLGync-lmqYfaaHjK4CZZH81ztI9ZToSImSy9G73jeShZ3xR0sWqKj5B5b1z6wlv4EvHP5NlXoB5IsxLtLRpYBYV7PdFU4qPkK190eLx3j9Axtw0Lt_RmRWFQeYMMq8N42EwFUenMO9w_IhFJkR5vnZH_RzWu8fkzM8mCKXdB9Hsr65sZkOWOFmngKJDp4L6mnR-aPPMlx3HvFvPBi9qXIV4f2UmL44gDQ";
+        "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJSYWNoYW5hIFBhdGlsIC0gODMxMzI2IiwiaXNzIjoiaHR0cHM6Ly9qd3QuaW8vIiwiYXVkIjoiYWNjOnFhNTcyMjE2NzYiLCJleHAiOjE5OTIwMjU5OTIsImlhdCI6MTY4MjAzMDk1NCwiYWNyIjoibG9hMSIsImdpdmVuX25hbWUiOiJSYWNoYW5hIFBhdGlsIn0.Auw4pf0fqrjET-n7gU4iaY910gTr-OaZBqr-hLN_SDOaTRfsWLs9UiW9_2xWr4xIYSZUwOjMfgWoaFItuIsjs5GU5-lCV7kU0WIQNGNuofI_CY5ye7Lszr9TgnvL7PkDtgZDbsnOHDhvIj8_KxjNxI883sV4yBsNOgGl8_lqrR_IC78tAhCw-5xsaOYoMa-chFyl0mPbkdnMsuTva9nHBIpdHTma2Wh-Ne_2wtUPYahaafQKHT3mrpIfKBeekrINrst8K-0rAx8pPD4e9atIbiHaF3OqaE1RvUulnczBU4GUmynUWOciQMAX4N8Ai1QI51DUnHOxAIEnLSTQxCPYyw";
 
       function lpGetAuthenticationToken(callback) {
         console.log("LP asked for id_token or auth code in Code Flow");
