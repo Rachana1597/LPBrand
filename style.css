@@ -97,7 +97,7 @@ nav a {
 }
 
 #cart-count {
-  background-color: silver;
+  background-color: #c9c0bb;
 
   color: black;
 
@@ -108,10 +108,11 @@ nav a {
   top: 20px;
 
   right: 200px;
+  font: Georgia;
 }
 
 #total-price {
-  background-color: silver;
+  background-color: #c9c0bb;
 
   position: fixed;
 
@@ -120,6 +121,7 @@ nav a {
   right: 200px;
 
   font-size: 18px;
+  font: Georgia;
 }
 /* </style> */
 
@@ -228,6 +230,8 @@ nav a {
 }
 
 #cart-count {
+  background-color: #c9c0bb;
+  
   color: black;
 
   /* border-top: 1px solid silver; */
@@ -239,9 +243,13 @@ nav a {
   top: 20px;
 
   right: 200px;
+  font: Georgia;
 }
 
 #total-price {
+
+  background-color: #c9c0bb;
+  
   position: fixed;
 
   top: 60px;
@@ -249,5 +257,6 @@ nav a {
   right: 200px;
 
   font-size: 18px;
+  font: Georgia;
 }
 /* </style> */
