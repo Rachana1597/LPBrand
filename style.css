@@ -265,7 +265,7 @@ nav a {
   background-color: white;
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
 }
 
 .formContainer {
@@ -278,7 +278,7 @@ nav a {
 }
 
 .formContainer form {
-  /* border: 10px solid white; */
+  border: 1px solid black;
   background-color: #c9c0bb;
   width: 80%;
   height: 60vh;
